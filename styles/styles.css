@@ -17,8 +17,8 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
-  --body-font-family: cbabeaconsans, cbabeaconsans-fallback, helvetica, arial, sans-serif;
-  --heading-font-family: cbabeaconsans, cbabeaconsans-fallback, sans-serif;
+  --body-font-family: "CBABeaconSans", "CBABeaconSans Fallback", "helvetica", "arial", "sans-serif";
+  --heading-font-family: "CBABeaconSans", "CBABeaconSans Fallback", "sans-serif";
   --body-font-size-m: 22px;
   --body-font-size-s: 19px;
   --body-font-size-xs: 17px;
@@ -33,7 +33,7 @@
 
 /* fallback fonts */
 @font-face {
-  font-family:icomoon-lego-fallback;
+  font-family:"icomoon-lego Fallback";
   font-style:normal;
   font-weight:400;
   src:local("Arial");
@@ -44,7 +44,7 @@
 }
 
 @font-face {
-  font-family:icomoon-fallback;
+  font-family:"icomoon Fallback";
   font-style:normal;
   font-weight:400;
   src:local("Arial");
@@ -55,7 +55,7 @@
 }
 
 @font-face {
-  font-family:beaconsans-fallback;
+  font-family:"BeaconSans Fallback";
   font-style:normal;
   font-weight:400;
   src:local("Arial");
@@ -66,29 +66,18 @@
 }
 
 @font-face {
-  font-family:beaconsans-fallback;
-  font-style:italic;
+  font-family:"CBABeaconSans Fallback";
+  font-style:normal;
   font-weight:400;
-  src:local("Arial Italic");
-  ascent-override:105.22%;
-  descent-override:21.42%;
+  src:local("Arial");
+  ascent-override:102.63%;
+  descent-override:20.89%;
   line-gap-override:0.00%;
-  size-adjust:96.66%;
+  size-adjust:99.10%;
 }
 
 @font-face {
-  font-family:cbabeaconsans-fallback;
-  font-style:italic;
-  font-weight:400;
-  src:local("Arial Italic");
-  ascent-override:105.22%;
-  descent-override:21.42%;
-  line-gap-override:0.00%;
-  size-adjust:96.66%;
-}
-
-@font-face {
-  font-family:beaconsans-fallback;
+  font-family:"BeaconSans Fallback";
   font-style:normal;
   font-weight:800;
   src:local("Arial Bold");
@@ -99,7 +88,29 @@
 }
 
 @font-face {
-  font-family:cbabeaconsans-fallback;
+  font-family:"CBASans Fallback";
+  font-style:normal;
+  font-weight:400;
+  src:local("Arial");
+  ascent-override:102.63%;
+  descent-override:20.89%;
+  line-gap-override:0.00%;
+  size-adjust:99.10%;
+}
+
+@font-face {
+  font-family:"BeaconSans Fallback";
+  font-style:italic;
+  font-weight:400;
+  src:local("Arial Italic");
+  ascent-override:105.22%;
+  descent-override:21.42%;
+  line-gap-override:0.00%;
+  size-adjust:96.66%;
+}
+
+@font-face {
+  font-family:"CBABeaconSans Fallback";
   font-style:normal;
   font-weight:800;
   src:local("Arial Bold");
@@ -110,25 +121,14 @@
 }
 
 @font-face {
-  font-family:cbabeaconsans-fallback;
-  font-style:normal;
+  font-family:"CBABeaconSans Fallback";
+  font-style:italic;
   font-weight:400;
-  src:local("Arial");
-  ascent-override:102.63%;
-  descent-override:20.89%;
+  src:local("Arial Italic");
+  ascent-override:105.22%;
+  descent-override:21.42%;
   line-gap-override:0.00%;
-  size-adjust:99.10%;
-}
-
-@font-face {
-  font-family:cbasans-fallback;
-  font-style:normal;
-  font-weight:400;
-  src:local("Arial");
-  ascent-override:102.63%;
-  descent-override:20.89%;
-  line-gap-override:0.00%;
-  size-adjust:99.10%;
+  size-adjust:96.66%;
 }
 
 @media (width>=900px) {

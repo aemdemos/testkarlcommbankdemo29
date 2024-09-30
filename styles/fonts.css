@@ -18,7 +18,7 @@
 }
 
 @font-face {
-  font-family: beaconsans;
+  font-family: BeaconSans;
   src: url('../fonts/beaconsans-400-normal.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
@@ -27,43 +27,7 @@
 }
 
 @font-face {
-  font-family: beaconsans;
-  src: url('../fonts/beaconsans-400-italic.woff2') format('woff2');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-  unicode-range: U+0-10FFFF;
-}
-
-@font-face {
-  font-family: cbabeaconsans;
-  src: url('../fonts/cbabeaconsans-400-italic.woff2') format('woff2');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-  unicode-range: U+0-10FFFF;
-}
-
-@font-face {
-  font-family: beaconsans;
-  src: url('../fonts/beaconsans-800-normal.woff2') format('woff2');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-  unicode-range: U+0-10FFFF;
-}
-
-@font-face {
-  font-family: cbabeaconsans;
-  src: url('../fonts/cbabeaconsans-800-normal.woff2') format('woff2');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-  unicode-range: U+0-10FFFF;
-}
-
-@font-face {
-  font-family: cbabeaconsans;
+  font-family: CBABeaconSans;
   src: url('../fonts/cbabeaconsans-400-normal.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
@@ -72,10 +36,46 @@
 }
 
 @font-face {
-  font-family: cbasans;
+  font-family: BeaconSans;
+  src: url('../fonts/beaconsans-800-normal.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: CBASans;
   src: url('../fonts/cbasans-400-normal.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: BeaconSans;
+  src: url('../fonts/beaconsans-400-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: CBABeaconSans;
+  src: url('../fonts/cbabeaconsans-800-normal.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: CBABeaconSans;
+  src: url('../fonts/cbabeaconsans-400-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
   font-display: swap;
   unicode-range: U+0-10FFFF;
 }
